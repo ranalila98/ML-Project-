@@ -10,9 +10,9 @@ from dataclasses import dataclass
 
 @dataclass
 class DataIngestionConfig:
-    train_data_path: str=os.path.join('artifaccts',"train.csv")
-    test_data_path: str=os.path.join('artifaccts',"test.csv")
-    raw_data_path: str=os.path.join('artifaccts',"data.csv")
+    train_data_path: str=os.path.join('artifacts',"train.csv")
+    test_data_path: str=os.path.join('artifacts',"test.csv")
+    raw_data_path: str=os.path.join('artifacts',"data.csv")
 
 
 class DataIngestion:
@@ -40,8 +40,6 @@ class DataIngestion:
             return(
                 self.ingestion_congif.train_data_path,
                 self.ingestion_congif.test_data_path,
-
-
             )
 
         except Exception as e:
@@ -50,3 +48,5 @@ class DataIngestion:
 if __name__=="__main__":
     obj=DataIngestion()
     obj.initiate_data_ingestion()
+
+
