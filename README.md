@@ -63,5 +63,6 @@ Flask App creation :
 
 Flask app is created with User Interface to predict the Math score of a student inside a Web Application.
 
-![alt text](image-2.png)
+### UI output
 
+![alt text](image.png)
