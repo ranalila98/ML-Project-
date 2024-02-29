@@ -16,7 +16,8 @@ There are 7 different input variables:
 Target Variable:
 2. Math Score
 
-### How to run? 
+<!-- ### How to run? 
+
 1. Clone the repository
 https://github.com/ranalila98/ML-Project-
 
@@ -37,7 +38,7 @@ python src/components/data_ingestion.py
 
 python app.py
 
-6. Now, open up you local host and port
+6. Now, open up you local host and port -->
 
 ### Aproach of this work
 
@@ -72,6 +73,8 @@ Flask app is created with User Interface to predict the Math score of a student 
 ![alt text](image.png)
 
 ### AWS deployment using CD pipeline
+
+changed app.py to application.py for AWS deployment
 
 http://studentexamperformance-env.eba-gyfszm4z.ap-northeast-2.elasticbeanstalk.com/predictdata
 
