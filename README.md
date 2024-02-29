@@ -21,16 +21,20 @@ Target Variable:
 https://github.com/ranalila98/ML-Project-
 
 2. Creat a conda env
+
 conda create -n venv python=3.8 -y
 conda activate cnncls/
 
 3. Install the requirements
+
 pip install -r requirements.txt
 
 4. Data Ingestion 
+
 python src/components/data_ingestion.py
 
 5. Finally, run the following command
+
 python app.py
 
 6. Now, open up you local host and port
@@ -66,3 +70,12 @@ Flask app is created with User Interface to predict the Math score of a student 
 ### UI output
 
 ![alt text](image.png)
+
+### AWS deployment using CD pipeline
+
+http://studentexamperformance-env.eba-gyfszm4z.ap-northeast-2.elasticbeanstalk.com/predictdata
+
+### AWS deployment UI
+
+![alt text](image-2.png)
+
